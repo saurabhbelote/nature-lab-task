@@ -1,0 +1,13 @@
+{% extends 'advisor/base.html' %}
+{% for booking in object_list %}
+<html><body>
+
+
+    <h2>{{booking.advisor}}<h2>
+    <h2>{{booking.user}}<h2>
+    <h2>{{booking.booking_id }}<h2>
+    <h2>{{booking.time }}<h2>
+    <h2>{{booking.contact_date }}<h2>
+
+</body></html>
+{% endfor %}    
